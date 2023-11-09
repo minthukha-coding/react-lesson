@@ -23,7 +23,7 @@ function reducer(state, action) {
 function UseReducer() {
   const [state, dispatch] = useReducer(reducer, initialValue);
 
-//   console.log(state);
+  console.log(state);
 
   return (
     <div>
