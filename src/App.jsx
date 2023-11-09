@@ -11,6 +11,7 @@ import DataUserFetch from "./components/DataUserFetch";
 import TestFAKEAPI from "./components/TestFAKEAPI";
 import UseReducer from "./components/UseReducer";
 import Todo from "./components/Todo";
+import NoteList from "./components/NoteList";
 
 function App() {
   // const [time, settime] = useState(0)
@@ -29,7 +30,7 @@ function App() {
     // <button onClick={()=>{settime(0)}}>Rest</button>
     // </>
     // <Chat/>
-    <Todo/>
+    <NoteList/>
 
   );
 }
